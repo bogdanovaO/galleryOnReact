@@ -1,0 +1,55 @@
+.bigGalleryContainer
+  display: grid
+  grid-template-columns: repeat(2, 1fr)
+
+.middleGalleryContainer
+  display: grid
+  grid-template-columns: repeat(3, 1fr)
+
+.smallGalleryContainer
+  display: grid
+  grid-template-columns: repeat(6, 1fr)
+
+.galleryItem
+  width: 100%
+
+.dropdown
+  position: relative
+  &__title
+    font-size: 40px
+  &__menu
+    position: absolute
+    background: #fff
+  &__button
+    font-size: 25px
+
+.detailContainer
+  display: grid
+  grid-template-columns: 1fr 1fr
+  grid-template-rows: 1fr
+  grid-template-areas: 'img comments' 'form comments' 
+  background: #eddddd
+  padding: 20px
+  box-sizing: border-box
+  &__img
+    width: 100%
+    grid-area: img
+
+.form
+  grid-area: form
+  display: flex
+  padding: 30px 0 30px 
+  box-sizing: border-box
+  &__input
+    height: 50px
+    width: 50%
+  &__button
+    width: 50%
+    background: #fff
+
+.comments
+  max-height: 100px
+  &__item
+    grid-area: comments
+    padding: 20px
+    box-sizing: border-box
