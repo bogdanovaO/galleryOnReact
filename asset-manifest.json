@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/galleryOnReact/static/css/main.2304771f.chunk.css",
+    "main.js": "/galleryOnReact/static/js/main.4eb068b6.chunk.js",
+    "main.js.map": "/galleryOnReact/static/js/main.4eb068b6.chunk.js.map",
+    "runtime-main.js": "/galleryOnReact/static/js/runtime-main.db242620.js",
+    "runtime-main.js.map": "/galleryOnReact/static/js/runtime-main.db242620.js.map",
+    "static/js/2.dc09f54d.chunk.js": "/galleryOnReact/static/js/2.dc09f54d.chunk.js",
+    "static/js/2.dc09f54d.chunk.js.map": "/galleryOnReact/static/js/2.dc09f54d.chunk.js.map",
+    "index.html": "/galleryOnReact/index.html",
+    "precache-manifest.16ef1cb832b9d40be38fa289b4c392c1.js": "/galleryOnReact/precache-manifest.16ef1cb832b9d40be38fa289b4c392c1.js",
+    "service-worker.js": "/galleryOnReact/service-worker.js",
+    "static/css/main.2304771f.chunk.css.map": "/galleryOnReact/static/css/main.2304771f.chunk.css.map",
+    "static/js/2.dc09f54d.chunk.js.LICENSE.txt": "/galleryOnReact/static/js/2.dc09f54d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db242620.js",
+    "static/js/2.dc09f54d.chunk.js",
+    "static/css/main.2304771f.chunk.css",
+    "static/js/main.4eb068b6.chunk.js"
+  ]
+}
