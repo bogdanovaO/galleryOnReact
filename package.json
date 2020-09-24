@@ -1,5 +1,6 @@
 {
   "name": "gallery",
+  "homepage": "https://bogdanovao.github.io/galleryOnReact",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,11 +16,13 @@
     "react-perfect-scrollbar": "^1.5.8",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^3.4.2",
     "redux": "^4.0.5",
     "redux-devtools": "^3.5.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.1.0",
     "redux-devtools": "^3.5.0"
   }
 }
