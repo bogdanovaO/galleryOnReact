@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Gallery.sass'
+import Button from '@material-ui/core/Button';
 
 const viewData = [
   { name: 'Большая плитка', id: 1 },
@@ -45,7 +46,7 @@ export default class Dropdown extends Component {
             <div className='dropdown__menu'>
             {
               viewData.map(view => {
-                return <button className='dropdown__button' key={view.id} onClick={() => this.handleClick(view.id, view.name)}>{view.name}</button>;
+                return <Button className='dropdown__button' key={view.id} onClick={() => this.handleClick(view.id, view.name)}>{view.name}</Button>;
               })
             }
             </div>)

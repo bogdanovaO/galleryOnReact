@@ -1,34 +1,51 @@
 .bigGalleryContainer
   display: grid
   grid-template-columns: repeat(2, 1fr)
+  grid-gap: 25px
+  padding: 0 20px
 
 .middleGalleryContainer
   display: grid
   grid-template-columns: repeat(3, 1fr)
+  grid-gap: 20px
+  padding: 0 20px
 
 .smallGalleryContainer
   display: grid
   grid-template-columns: repeat(6, 1fr)
+  grid-gap: 15px
+  padding: 0 20px
 
 .galleryItem
   width: 100%
 
 .dropdown
   position: relative
+  padding: 20px
+  box-sizing: border-box
+
   &__title
-    font-size: 40px
+    font-size: 20px
+    color: #3f51b5
   &__menu
-    position: absolute
     background: #fff
+    display: grid
+    position: absolute
+    top: 63px
+    border:  0.5px solid #3f51b5!important
   &__button
-    font-size: 25px
+    font-size: 16px!important
+    text-transform: none!important
+    padding: 6px 55px!important
+    color: #3f51b5!important
+    font-weight: 400!important
 
 .detailContainer
   display: grid
   grid-template-columns: 1fr 1fr
   grid-template-rows: 1fr
   grid-template-areas: 'img comments' 'form comments' 
-  background: #eddddd
+  background: #fff
   padding: 20px
   box-sizing: border-box
   &__img
@@ -42,14 +59,21 @@
   box-sizing: border-box
   &__input
     height: 50px
-    width: 50%
+    width: 80%
   &__button
-    width: 50%
-    background: #fff
+    width: 20%
+    background: #fff5
+    margin-left: 20px!important
 
 .comments
   max-height: 100px
+  padding: 20px
+  box-sizing: border-box
   &__item
     grid-area: comments
     padding: 20px
     box-sizing: border-box
+    background-color: #fff
+    border-radius: 20px
+    box-shadow: rgba(0,0,0,0.1) 0 0 10px
+

@@ -3,8 +3,9 @@ import { connect } from 'react-redux';
 import * as axios from 'axios';
 import { getImagesItem, updateNewPostText, addNewPostText } from '../redux/gallery.jsx';
 import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 import './Gallery.sass'
+import Button from '@material-ui/core/Button';
 
 class GalleryDetails extends Component {
   constructor(props) {
@@ -44,7 +45,7 @@ class GalleryDetails extends Component {
             onChange={changePost}
             value={this.props.newPostText}
             rows="3" />
-          <Button
+          <Button variant="outlined"  size="small"  color="primary" 
             className='form__button'
             onClick={addComment}>
             отправить
